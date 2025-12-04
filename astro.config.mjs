@@ -1,8 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import { filterSitemapByDefaultLocale, i18n } from 'astro-i18n-aut/integration';
-import sitemap from '@astrojs/sitemap';
 import starlightLlmsTxt from 'starlight-llms-txt'
 const defaultLocale = 'en';
 const localeNames = {
@@ -22,18 +20,6 @@ export default defineConfig({
     },
   },
   integrations: [
-    i18n({
-      locales: localeNames,
-      defaultLocale,
-      redirectDefaultLocale: true,
-    }),
-    sitemap({
-      i18n: {
-        defaultLocale,
-        locales: localeNames,
-      },
-      filter: filterSitemapByDefaultLocale({ defaultLocale }),
-    }),
     starlight({
       title: 'My Docs',
       pagefind: false,
