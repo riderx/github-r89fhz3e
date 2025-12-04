@@ -1,11 +1,11 @@
 ---
-title: Example Reference
-description: A reference page in my new Starlight docs site.
+title: Referencia de ejemplo
+description: Una página de referencia en mi nuevo sitio de documentación Starlight.
 ---
 
-Reference pages are ideal for outlining how things work in terse and clear terms.
-Less concerned with telling a story or addressing a specific use case, they should give a comprehensive outline of what you're documenting.
+Las páginas de referencia son ideales para describir cómo funcionan las cosas de manera concisa y clara.
+Menos preocupadas por contar una historia o abordar un caso de uso específico, deben proporcionar un esquema completo de lo que estás documentando.
 
-## Further reading
+## Lectura adicional
 
-- Read [about reference](https://diataxis.fr/reference/) in the Diátaxis framework
+- Lee [sobre referencia](https://diataxis.fr/reference/) en el marco Diátaxis
