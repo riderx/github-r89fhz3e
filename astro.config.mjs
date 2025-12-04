@@ -19,6 +19,12 @@ export default defineConfig({
       redirectToDefaultLocale: true,
     },
   },
+  redirects: {
+    '/': {
+      status: 302,
+      destination: '/docs/',
+    },
+  },
   integrations: [
     starlight({
       title: 'My Docs',
